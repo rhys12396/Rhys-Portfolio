@@ -35,7 +35,7 @@ a {
     background-color: rgb(90, 90, 90);
 }
 .programmingImage {
-    margin-bottom: 0px;
+    margin-bottom: -5px;
 }
 .name {
     display: flex;
