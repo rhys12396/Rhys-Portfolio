@@ -43,6 +43,36 @@ a {
     flex-wrap: wrap;
     font-family: arial;
     color: white;
+    width: 100%;
     margin: 0px;
     background-color: rgb(60, 60, 60);
+}
+.personalStatement {
+    display: flex;
+    flex-direction: row;
+    font-family: arial;
+    text-align: justify;
+    justify-content: center;
+    width: 90%;
+    color: white;
+}
+.personalStatement p {
+    width: 40%;
+    margin-right: 5%;
+}
+.personalStatement img {
+    width: 40%;
+    height: 40%;
+    max-height: 300px;
+    max-width: 300px;
+    margin-top: 20px;
+}
+@media (max-width: 400px){
+    .personalStatement {
+        flex-direction: column;
+        margin-left: 20%;
+    }
+    .personalStatement p {
+        width: 70%;
+    }
 }
