@@ -53,14 +53,12 @@ a {
     font-family: arial;
     text-align: justify;
     justify-content: center;
-    width: 90%;
+    width: 100%;
     color: white;
 }
 .personalStatement p {
     width: 40%;
-    margin-right: 5%;
-    padding: 5px;
-    align-content: center;
+    padding-right: 10px;
     font-size: 20px;
     overflow-wrap: break-word;
 }
@@ -73,13 +71,11 @@ a {
 }
 @media (max-width: 800px){
     .personalStatement {
+        display: flex;
         flex-direction: column;
-        margin-left: 20%;
+        align-items: center;
     }
     .personalStatement p {
-        width: 70%;
-    }
-    .personalStatement img {
-        margin-left: 5%;
+        min-width: 250px;
     }
 }
