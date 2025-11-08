@@ -49,33 +49,63 @@ a {
 }
 .personalStatement {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     font-family: arial;
     text-align: justify;
-    justify-content: center;
+    align-items: center;
     width: 100%;
     color: white;
 }
+
 .personalStatement p {
-    width: 40%;
+    width: 70%;
     padding-right: 10px;
     font-size: 20px;
     overflow-wrap: break-word;
 }
-.personalStatement img {
+
+.para1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 20px solid rgb(60, 60, 60);
+    padding-bottom: 20px;
+}
+.para1 p {
+    width: 40%;
+    padding-right: 10px;
+    font-size: 20px;
+    align-items: center;
+    overflow-wrap: break-word;
+}
+.para1 img {
     width: 60%;
     height: 60%;
+    align-items: center;
     max-height: 250px;
     max-width: 250px;
     margin-top: 10px;
 }
+.para3 a {
+    color: rgb(60, 130, 255);
+}
+footer {
+    font-family: arial;
+    color: rgb(80, 80, 80);
+    background-color: rgb(20, 20, 20);
+    padding: 30px;
+}
+
 @media (max-width: 800px){
-    .personalStatement {
+    .personalStatement p {
+        min-width: 250px;
+    }
+    .para1 {
         display: flex;
         flex-direction: column;
         align-items: center;
     }
-    .personalStatement p {
+    .para1 p {
         min-width: 250px;
     }
 }
