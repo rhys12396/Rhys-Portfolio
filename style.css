@@ -20,7 +20,7 @@ nav {
     margin: 0px;
     padding: 0px;
     width: 100%;
-    position: sticky;
+    position: fixed;
 }
 a {
     color: rgb(200, 200, 200);
